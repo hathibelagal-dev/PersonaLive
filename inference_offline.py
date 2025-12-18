@@ -32,7 +32,7 @@ def parse_args():
     parser.add_argument("--name", type=str, default='personalive_offline')
     parser.add_argument("-W", type=int, default=512)
     parser.add_argument("-H", type=int, default=512)
-    parser.add_argument("-L", type=int, default=100)
+    parser.add_argument("-L", type=int, default=1000)
     parser.add_argument("--seed", type=int, default=42)
     parser.add_argument("--device", type=str, default="cuda")
     parser.add_argument("--use_xformers", type=bool, default=True)
